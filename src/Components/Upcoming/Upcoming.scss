@@ -1,0 +1,27 @@
+.upcomingWrapper {
+  padding-top: 30px;
+
+  > div {
+    width: 100%;
+    z-index: 10;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    font-family: sans-serif;
+
+    > :first-child {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      color: white;
+      padding: 10px;
+    }
+
+    > :last-child {
+      height: 400px;
+      overflow-x: auto;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
